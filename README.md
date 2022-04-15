@@ -7,6 +7,33 @@
 <a name = "docker_overview"></a>
 ## 1. Tổng quan về docker 
 
+### Docker image
+
+* **Pull *docker image* từ *docker hub***
+
+```
+docker pull image_name
+```
+* **List các images** 
+
+```
+docker images 
+```
+* **Xóa image** 
+
+```
+docker rmi image_id
+```
+***Note:*** Không xóa được image mà container tương tứng với nó vẫn đang hoạt động. Do đó, trước khi xóa image đó, ta cần xóa container trước.
+  * **List container up** 
+```
+docker ps
+```
+  * **Remove container** 
+ ```
+ docker rm --force container_id
+ ```
+
 <a name = "docker_file"></a>
 ## 2. Docker file
 
