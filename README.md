@@ -35,18 +35,17 @@ docker rmi image_id
    or
    docker rm -f container_id
    ```
-* Tạo containers từ images
-   - 1 image => 1 or nhiều containers 
+* **Tạo containers từ images** (1 image => 1 or nhiều containers)
 ```
 docker run -d container_name 
 ```
 
-* Tắt container 
+* **Tắt container** 
 
 ```
 docker stop container_id 
 ```
-* Bật container 
+* **Bật container** 
 
 ```
 docker start container_id
