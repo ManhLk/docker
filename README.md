@@ -37,9 +37,20 @@ docker rmi image_id
    ```
 * Tạo containers từ images
    - 1 image => 1 or nhiều containers 
-   ```
-   docker run -d container_name 
-   ```
+```
+docker run -d container_name 
+```
+
+* Tắt container 
+
+```
+docker stop container_id 
+```
+* Bật container 
+
+```
+docker start container_id
+```
 <a name = "docker_file"></a>
 ## 2. Docker file
 
