@@ -24,15 +24,17 @@ docker images
 ```
 docker rmi image_id
 ```
-***Note:*** Không xóa được image mà container tương tứng với nó vẫn đang hoạt động. Do đó, trước khi xóa image đó, ta cần xóa container trước.
-  * **List container up** 
-```
-docker ps
-```
-  * **Remove container** 
- ```
- docker rm --force container_id
- ```
+* ***Note:*** Không xóa được image mà container tương tứng với nó vẫn đang hoạt động. Do đó, trước khi xóa image đó, ta cần xóa container trước.
+   - **List container up** 
+   ```
+   docker ps
+   ```
+   - **Remove container** 
+   ```
+   docker rm --force container_id
+   or
+   docker rm -f container_id
+   ```
 
 <a name = "docker_file"></a>
 ## 2. Docker file
