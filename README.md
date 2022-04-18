@@ -54,6 +54,11 @@ docker start container_id
 ```
 -v host_volumne: container_volume
 ```
+* **Detach container**
+
+```
+Ctrl + p + q
+```
 <a name = "docker_file"></a>
 ## 2. Docker file
 
