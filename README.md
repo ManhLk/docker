@@ -57,7 +57,12 @@ docker start container_id
 * **Detach container**
 
 ```
-Ctrl + p + q
+Ctrl + p, Ctrl + q
+```
+* **Attach container**
+
+```
+docker attach container_id
 ```
 <a name = "docker_file"></a>
 ## 2. Docker file
