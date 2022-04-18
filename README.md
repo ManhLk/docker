@@ -50,6 +50,10 @@ docker stop container_id
 ```
 docker start container_id
 ```
+* **Docker volume**
+```
+-v host_volumne: container_volume
+```
 <a name = "docker_file"></a>
 ## 2. Docker file
 
