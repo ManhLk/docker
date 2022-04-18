@@ -64,6 +64,17 @@ Ctrl + p, Ctrl + q
 ```
 docker attach container_id
 ```
+* **Thi hành lệnh từ máy host**
+
+```
+docker exec container_id command
+```
+
+* **Attach + Execute container from host**
+
+```
+docker exec -it container_id command
+```
 <a name = "docker_file"></a>
 ## 2. Docker file
 
